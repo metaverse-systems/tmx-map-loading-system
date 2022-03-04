@@ -1,0 +1,28 @@
+{
+  "name": "@metaverse-systems/tmx-map-loading-system",
+  "version": "0.0.1",
+  "description": "Parses TMX map and generates ECS entities / components.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaverse-systems/tmx-map-loading-system.git"
+  },
+  "author": "Tim Schwartz <tim@metaverse.systems>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metaverse-systems/tmx-map-loading-system/issues"
+  },
+  "homepage": "https://github.com/metaverse-systems/tmx-map-loading-system#readme",
+  "dependencies": {
+    "@metaverse-systems/libecs-js": "file:../libecs-js",
+    "node-fetch": "^3.2.1",
+    "tiled-tmx-parser": "github:buzzyboy/node-tmx-parser",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
